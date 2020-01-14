@@ -1,0 +1,42 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Change Network CARD IN SERVER 007",
+      "attention": false,
+      "tech": "Adel Stiti",
+      "date": "2019-11-09T15:57:13.232Z"
+    },
+    {
+      "id": 2,
+      "message": "Hard Drive Field in worsktion 204",
+      "attention": false,
+      "tech": "Molka Fred",
+      "date": "2019-11-09T15:43:51.043Z"
+    },
+    {
+      "id": 3,
+      "message": "hhhhhhhhh",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2019-11-09T11:26:33.423Z"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    }
+  ]
+}
