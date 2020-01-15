@@ -2,10 +2,9 @@
   "name": "logshow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adelstiti.github.io/logShow",
+  "homepage" : "https://adelstiti.github.io/logShow",
   "dependencies": {
     "gh-pages": "^2.2.0",
-    "http-proxy-middleware": "^0.20.0",
     "materialize-css": "^1.0.0",
     "moment": "^2.24.0",
     "react": "^16.11.0",
@@ -22,8 +21,8 @@
     "json-server": "json-server --watch db.json --port 5000",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,5 +44,6 @@
   "devDependencies": {
     "concurrently": "^5.0.0",
     "json-server": "^0.15.1"
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
