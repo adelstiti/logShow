@@ -11,7 +11,7 @@ You can read more about me on: [LinkedIn](https://www.linkedin.com/in/adel-stiti
 
 **Use..**
 - ReactJS
-- Reudx
+- Redux
 - JSON Server
 
 
