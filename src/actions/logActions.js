@@ -23,9 +23,8 @@ export const getLogs = () => async dispatch => {
     try {
         setLoading();
 
-        const res = await fetch('/logs');
+        const res = await fetch(`${process.env.API_URL}/logs`);
         const data = await res.json();
-
         dispatch({
             type: GET_LOGS,
             payload : data
@@ -46,7 +45,7 @@ export const addLog = (log) => async dispatch => {
     try {
         setLoading();
 
-        const res = await fetch('/logs',{
+        const res = await fetch(`${process.env.API_URL}/logs`,{
             method : 'POST',
             body : JSON.stringify(log),
             headers : {
@@ -75,7 +74,7 @@ export const deleteLog = id => async dispatch => {
     try {
         setLoading();
 
-        await fetch(`/logs/${id}`,{
+        await fetch(`${process.env.API_URL}/logs/${id}`,{
             method : 'DELETE'
         });
 
@@ -97,7 +96,7 @@ export const updateLog = log => async dispatch => {
     try {
         setLoading();
 
-        const res = await fetch(`/logs/${log.id}`,{
+        const res = await fetch(`${process.env.API_URL}/logs/${log.id}`,{
             method : 'PUT',
             body : JSON.stringify(log),
             headers : {
@@ -126,7 +125,7 @@ export const searchLog = text => async dispatch => {
     try {
         setLoading();
 
-        const res = await fetch(`/logs/?q=${text}`);
+        const res = await fetch(`${process.env.API_URL}/logs/?q=${text}`);
 
         const data = await res.json();
 
