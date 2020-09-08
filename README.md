@@ -2,6 +2,8 @@
 
 This project was developed to improve knowledge.
 
+Check out the demo : [https://adelstiti.github.io/logShow](https://adelstiti.github.io/logShow)
+
 You can read more about me on: [LinkedIn](https://www.linkedin.com/in/adel-stiti-9ba760158/).
 
 
